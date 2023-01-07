@@ -5,6 +5,7 @@
 
 }
 
+
 /* header area css start */
 header{
     background: url(./images/banner/banner0.png);
@@ -91,6 +92,12 @@ header{
     margin: 130px;
 
 }
+.my-plan h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151414;
+
+}
 .plan-items{
     display: flex;
     justify-content: space-between;
@@ -117,3 +124,107 @@ header{
 
 
 /* my plan area css end */
+
+/* achievement area css start */
+.achievement-title{
+    text-align: center;
+}
+.achievement-title h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151414;
+}
+.achievement{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 180px;
+}
+.single-achievement img{
+    width: 100%;
+}
+.single-achievement{
+    text-align: center;
+}
+
+
+
+/* achievement area css end */
+
+
+
+/* contact area css start */
+.contact-area{
+    background: linear-gradient(to right, #F15B22 10%, rgb(240 240 248 / 0%)),
+    url(./images/watch.png);
+    margin: 100px 180px;
+    padding: 40px 450px 60px 40px;
+    border-radius: 10px;
+}
+.contact-area-content{
+    text-align: left;
+    color: #ffff;
+}
+.contact-area-content button{
+    padding: 15px 25px;
+    color: #F15B22;
+    background: #ffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+/* contact area css end */
+
+/* footer area css start */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 180px;
+    background: #151414;
+}
+.footer-content{
+    width: 30%;
+}
+.subscribe{
+    width: 30%;
+}
+
+.icon{
+    margin-right: 20px;
+}
+.footer-content h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+    margin-bottom: 15px;
+}
+.footer-content p{
+    font-size: 16px;
+    color: #F8F8F8;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.subscribe h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffff;
+    margin-bottom: 10px;
+}
+.subscribe input{
+    padding: 20px 150px 20px 20px;
+    background: #151414;
+    border: 1px solid #ffff;
+}
+.subscribe-btn{
+    padding: 15px 25px;
+    color: #F15B22;
+    background: #ffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* footer area css end */
